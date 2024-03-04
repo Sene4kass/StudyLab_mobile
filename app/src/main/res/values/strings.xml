@@ -7,4 +7,10 @@
     <string name="LogInSystem">Войти</string>
     <string name="hasntAcc">Нет аккаунта?</string>
     <string name="register">Зарегистрироваться</string>
+    <string name="register_process">Регистрация</string>
+    <string name="confirm_password">Повторите пароль</string>
+    <string name="email">E-mail</string>
+    <string name="Name">Имя</string>
+    <string name="Surname">Фамилия</string>
+    <string name="LastName">Отчество</string>
 </resources>

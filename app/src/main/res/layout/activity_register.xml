@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/custom_black"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-127dp"
+        tools:layout_editor_absoluteY="139dp">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="35dp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:contentDescription="@string/app_name"
+            app:srcCompat="@drawable/framestudylablogo" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/averia_libre"
+            android:text="@string/register_process"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="33dp" />
+
+        <LinearLayout
+            android:layout_width="347dp"
+            android:layout_height="57dp"
+            android:orientation="horizontal"
+            android:paddingLeft="120px">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:paddingTop="40px"
+                android:paddingRight="20px"
+                app:srcCompat="@drawable/usericon" />
+
+            <EditText
+                android:id="@+id/__edit_login"
+                android:layout_width="259dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:fontFamily="@font/averia_libre"
+                android:hint="@string/login"
+                android:inputType="text"
+                android:maxLength="20"
+                android:paddingHorizontal="30px"
+                android:paddingLeft="30px"
+                android:singleLine="true"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textScaleX="1"
+                android:textSize="18sp"
+                android:transformPivotY="10px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="347dp"
+            android:layout_height="57dp"
+            android:orientation="horizontal"
+            android:paddingLeft="120px">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:paddingTop="40px"
+                android:paddingRight="20px"
+                app:srcCompat="@drawable/iconblock" />
+
+            <EditText
+                android:id="@+id/__edit_password"
+                android:layout_width="259dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:fontFamily="@font/averia_libre"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:maxLength="36"
+                android:paddingHorizontal="30px"
+                android:paddingLeft="30px"
+                android:password="true"
+                android:singleLine="true"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textScaleX="1"
+                android:textSize="18sp"
+                android:transformPivotY="10px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="347dp"
+            android:layout_height="57dp"
+            android:orientation="horizontal"
+            android:paddingLeft="120px">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:paddingTop="40px"
+                android:paddingRight="20px"
+                app:srcCompat="@drawable/iconblock" />
+
+            <EditText
+                android:id="@+id/__edit_confirm_pass"
+                android:layout_width="259dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:fontFamily="@font/averia_libre"
+                android:hint="@string/confirm_password"
+                android:inputType="text"
+                android:maxLength="36"
+                android:paddingHorizontal="30px"
+                android:paddingLeft="30px"
+                android:password="true"
+                android:singleLine="true"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textScaleX="1"
+                android:textSize="18sp"
+                android:transformPivotY="10px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="347dp"
+            android:layout_height="57dp"
+            android:orientation="horizontal"
+            android:paddingLeft="120px">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="51dp"
+                android:layout_height="41dp"
+                android:layout_weight="1"
+                android:paddingTop="40px"
+                android:paddingRight="20px"
+                app:srcCompat="@drawable/mail" />
+
+            <EditText
+                android:id="@+id/__edit_email"
+                android:layout_width="259dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:fontFamily="@font/averia_libre"
+                android:hint="@string/email"
+                android:inputType="textEmailAddress"
+                android:maxLength="36"
+                android:paddingLeft="30px"
+                android:singleLine="true"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textScaleX="1"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="347dp"
+            android:layout_height="57dp"
+            android:orientation="horizontal"
+            android:paddingLeft="120px">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:paddingTop="40px"
+                android:paddingRight="20px"
+                app:srcCompat="@drawable/registrationname" />
+
+            <EditText
+                android:id="@+id/__edit_name"
+                android:layout_width="259dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:fontFamily="@font/averia_libre"
+                android:hint="@string/Name"
+                android:inputType="text"
+                android:maxLength="36"
+                android:paddingHorizontal="30px"
+                android:paddingLeft="30px"
+                android:singleLine="true"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textScaleX="1"
+                android:textSize="18sp"
+                android:transformPivotY="10px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="347dp"
+            android:layout_height="57dp"
+            android:orientation="horizontal"
+            android:paddingLeft="120px">
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:paddingTop="40px"
+                android:paddingRight="20px"
+                app:srcCompat="@drawable/registrationname" />
+
+            <EditText
+                android:id="@+id/__edit_surname"
+                android:layout_width="259dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:fontFamily="@font/averia_libre"
+                android:hint="@string/Surname"
+                android:inputType="text"
+                android:maxLength="36"
+                android:paddingHorizontal="30px"
+                android:paddingLeft="30px"
+                android:singleLine="true"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textScaleX="1"
+                android:textSize="18sp"
+                android:transformPivotY="10px" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="347dp"
+            android:layout_height="57dp"
+            android:orientation="horizontal"
+            android:paddingLeft="120px">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_weight="1"
+                android:paddingTop="40px"
+                android:paddingRight="20px"
+                app:srcCompat="@drawable/registrationname" />
+
+            <EditText
+                android:id="@+id/__edit_lastname"
+                android:layout_width="259dp"
+                android:layout_height="match_parent"
+                android:ems="10"
+                android:fontFamily="@font/averia_libre"
+                android:hint="@string/LastName"
+                android:inputType="text"
+                android:maxLength="36"
+                android:paddingHorizontal="30px"
+                android:paddingLeft="30px"
+                android:singleLine="true"
+                android:textAlignment="viewStart"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:textScaleX="1"
+                android:textSize="18sp"
+                android:transformPivotY="10px" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="27dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:orientation="horizontal"
+            android:paddingLeft="50dp">
+
+            <Button
+                android:id="@+id/__button_login"
+                android:layout_width="296dp"
+                android:layout_height="67dp"
+                android:backgroundTint="@color/custom_buttons"
+                android:fontFamily="@font/averia_libre"
+                android:text="@string/register"
+                android:textColorLink="@color/custom_buttons"
+                android:textSize="22sp"
+                app:cornerRadius="15dp"
+                app:rippleColor="@color/custom_buttons"
+                app:strokeColor="@color/custom_buttons" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
