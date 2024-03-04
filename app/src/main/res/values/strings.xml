@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">StudyLab</string>
+    <string name="app_login_label">Вход в учетную запись</string>
+    <string name="login">Логин</string>
+    <string name="account_name">Имя пользователя (или e-mail)</string>
+    <string name="password">Пароль</string>
+    <string name="LogInSystem">Войти</string>
+    <string name="hasntAcc">Нет аккаунта?</string>
+    <string name="register">Зарегистрироваться</string>
+</resources>
