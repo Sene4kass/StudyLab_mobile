@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="__button_regUser" type="id" />
+    <item name="list_content" type="id" />
+</resources>

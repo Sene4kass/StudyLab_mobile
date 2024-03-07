@@ -1,6 +1,8 @@
 package com.sene4ka.studylab;
 
-public class ActiveUser implements User{
+import java.io.Serializable;
+
+public class ActiveUser implements User, Serializable {
     String user_name = "";
     String user_password = "";
     String user_surname = "";

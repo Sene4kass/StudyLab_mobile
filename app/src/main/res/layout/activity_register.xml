@@ -295,24 +295,20 @@
             android:layout_height="27dp" />
 
         <LinearLayout
-            android:layout_width="match_parent"
+            android:layout_width="345dp"
             android:layout_height="65dp"
             android:orientation="horizontal"
             android:paddingLeft="50dp">
 
             <Button
-                android:id="@+id/__button_login"
-                android:layout_width="296dp"
-                android:layout_height="67dp"
-                android:backgroundTint="@color/custom_buttons"
+                android:id="@+id/button_regUser"
+                android:layout_width="251dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:fontFamily="@font/averia_libre"
                 android:text="@string/register"
-                android:textColorLink="@color/custom_buttons"
-                android:textSize="22sp"
-                app:cornerRadius="15dp"
-                app:rippleColor="@color/custom_buttons"
-                app:strokeColor="@color/custom_buttons" />
-
+                android:textSize="24sp"
+                app:cornerRadius="15dp" />
         </LinearLayout>
 
     </LinearLayout>

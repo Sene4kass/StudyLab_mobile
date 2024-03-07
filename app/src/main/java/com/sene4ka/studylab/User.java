@@ -1,5 +1,7 @@
 package com.sene4ka.studylab;
 
+import java.io.Serializable;
+
 public interface User {
 
 

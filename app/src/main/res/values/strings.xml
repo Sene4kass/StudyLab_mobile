@@ -13,4 +13,10 @@
     <string name="Name">Имя</string>
     <string name="Surname">Фамилия</string>
     <string name="LastName">Отчество</string>
+    <string name="title_activity_courses_view">CoursesViewActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Courses</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="your_raiting">Ваш рейтинг:</string>
+    <string name="your_courses">Ваши курсы:</string>
 </resources>
